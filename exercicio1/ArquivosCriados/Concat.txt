@@ -1,0 +1,17 @@
+Criar arquivo: $touch <nome.do.aquivo>.txt | $cat > <nome.do.aqruivo>
+Criar pasta: $mkdir <nome.da.pasta>
+Alterar entre diretórios: $cd | $cd .. | $cd ../<pasta> e por aí vai.
+Ler um arquivo: $cat <nome.do.arquivo>
+Editar um arquivo: $vi <nome.do.arquivo> | $vim <nome.do.arquivo>
+Copiar arquivo: $cp <nome.do.aqruivo> | $cp <nome.do.arquivo> <diretório>
+Listar arquivos e diretório na pasta atual: $ls | $ls -la e por aí vai.
+Mover ou renomear arquivos: $mv <nome.do.arquivo> <nome.do.novo.arquivo> | $mv <nome.do.arquivo> <diretório>
+cat
+cd
+mkdir
+touch
+rm
+mv
+cp
+vim
+ls

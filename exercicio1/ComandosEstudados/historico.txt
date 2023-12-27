@@ -1,0 +1,97 @@
+1001  git clone git@github.com:LohanMB/practice.git
+ 1002  ls -l
+ 1003  cd practice
+ 1004  ls -l
+ 1005  mkdir home
+ 1006  cd home
+ 1007  mkdir aluno
+ 1008  cd aluno
+ 1009  pwd
+ 1010  cd ..
+ 1011  rmdir aluno
+ 1012  ls
+ 1013  ls -l
+ 1014  cd ..
+ 1015  ls -l
+ 1016  rmdir home
+ 1017  ls -l
+ 1018  mkdir exercicio1
+ 1019  cd exercicio1
+ 1020  mkdir Projetos ComandosEstudados ArquivosCriados Scripts
+ 1021  ls -l
+ 1022  cd ArquivosCriados
+ 1023  touch lista.txt
+ 1024  touch lembrar.txt
+ 1025  cp lista.txt ComandosEstudados
+ 1026  ls -l
+ 1027  cd ..
+ 1028  cd ComandosEstudados
+ 1029  ls -l
+ 1030  cd ..
+ 1031  cd ArquivosCriados
+ 1032  ls
+ 1033  rm ComandosEstudados
+ 1034  ls
+ 1035  cp lista.txt > /ComandosEstudados
+ 1036  cp lista.txt > ComandosEstudados/
+ 1037  cp lista.txt > ComandosEstudados
+ 1038  ls
+ 1039  rm ComandosEstudados
+ 1040  ls
+ 1041  ls ComandosEstudados
+ 1042  ls ComandosEstudados/
+ 1043  ls -d
+ 1044  ls * /
+ 1045  ls -d 8 /
+ 1046  ls -d * /
+ 1047  cd ..
+ 1048  cd ArquivosCriados
+ 1049  ls
+ 1050  cd ComandosEstudados
+ 1051  cd ..
+ 1052  cd ComandosEstudados
+ 1053  ls
+ 1054  lS -l ArquivosCriados
+ 1055  lS -l ArquivosCriados/
+ 1056  ls -l ArquivosCriados
+ 1057  ls -l ArquivosCriados/
+ 1058  ls -l /ArquivosCriados
+ 1059  ls -l ../ArquivosCriados
+ 1060  cd ../ArquivosCriados
+ 1061  ls
+ 1062  ls Projetos
+ 1063  ls /Projetos
+ 1064  ls ../Projetos
+ 1065  cd ../ComandosEstudados
+ 1066  ls
+ 1067  cd ../ArquivosCriados
+ 1068  ls
+ 1069  cp lista.txt ../ComandosEstudados
+ 1070  ls ../ComandosEstudados
+ 1071  cp lembrar.txt ../Projetos
+ 1072  ls ../Projetos
+ 1073  touch Concat.txt
+ 1074  clear
+ 1075  ls
+ 1076  vim lista.txt
+ 1077  cat lista.txt
+ 1078  vim lembrar.txt
+ 1079  cat lembrar.txt
+ 1080  vim lembrar.txt
+ 1081  vim lembrar.txt
+ 1082  vim lembrar.txt
+ 1083  cat lembrar.txt
+ 1084  cat lembrar.txt lista.txt > Concat.txt
+ 1085  ls
+ 1086  cat Concat.txt
+ 1087  cat lembrar.txt
+ 1088  rm lembrar.txt lista.txt
+ 1089  ls
+ 1090  cd ../ComandosEstudados
+ 1091  touch historico.txt
+ 1092  history
+ 1093  cd ../
+ 1094  history
+ 1095  history 30
+ 1096  cd ComandosEstudados
+
