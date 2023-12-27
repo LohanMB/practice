@@ -1,0 +1,39 @@
+1001  pwd
+ 1002  ls -l
+ 1003  cd practice
+ 1004  mkdir exercicio2
+ 1005  ls -l
+ 1006  touch file1.txt
+ 1007  vim file1.txt
+ 1008  cat file1.txt
+ 1009  touch fileeeee2.txt
+ 1010  mv fileeeee2.txt file.txt
+ 1011  ls -l
+ 1012  mv file.txt file2.txt
+ 1013  ls -l
+ 1014  mv file1.txt file2.txt exercicio2/
+ 1015  ls -l
+ 1016  cd exercicio2
+ 1017  ls -l
+ 1018  head -n3 file1.txt
+ 1019  tail file1.txt
+ 1020  tail -n2 file1.txt
+ 1021  head -n3 file1.txt > file2.txt
+ 1022  cat file2.txt
+ 1023  tail -n2 file1.txt >> file2.txt
+ 1024  cat file2.txt
+ 1025  grep 1 file2.txt
+ 1026  cat file2.txt | grep -v 1 > file2.txt
+ 1027  cat file2.txt
+ 1028  ls -l
+ 1029  cat file2.txt
+ 1030  head -n3 file1.txt > file2.txt
+ 1031  cat file2.txt
+ 1032  tail -n2 file1.txt >> file2.txt
+ 1033  cat file2.txt
+ 1034  cat file2.txt | grep -v 1 > file3.txt
+ 1035  cat file3.txt
+ 1036  rm file2.txt
+ 1037  mv file3.txt file2.txt
+ 1038  cat file2.txt
+ 1039  touch historico.txt
