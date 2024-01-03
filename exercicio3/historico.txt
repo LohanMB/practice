@@ -1,0 +1,24 @@
+1001  pwd
+ 1002  ls -l
+ 1003  cd practice
+ 1004  code .
+ 1005  code .
+ 1006  code .
+ 1007  touch file1.txt file2.txt file3.txt
+ 1008  ls -l
+ 1009  mkdir exercicio3
+ 1010  mv file1.txt file2.txt file3.txt exercicio3/
+ 1011  ls -l
+ 1012  cd exercicio3
+ 1013  ls -l
+ 1014  seq 500 1500 >> file1.txt
+ 1015  cat file1.txt
+ 1016  seq 0 499 >> file2.txt
+ 1017  seq 1450 2000 >> file3.txt
+ 1018  cat file1.txt file2.txt file3.txt | uniq >> zero_ate_2000.txt
+ 1019  cat zero_ate_2000.txt
+ 1020  rm zero_ate_2000.txt
+ 1021  ls -l
+ 1022  cat file2.txt file1.txt file3.txt | uniq >> zero_ate_2000.txt
+ 1023  cat zero_ate_2000.txt
+ 1024  touch historico.txt
